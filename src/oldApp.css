@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 :root {
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -15,26 +16,31 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
-body .container {
+
+.container {
   margin: 30px auto;
   width: 350px;
 }
-body .container h1 {
+
+h1 {
   letter-spacing: 1px;
   margin: 0;
 }
-body .container h3 {
+
+h3 {
   border-bottom: 1px solid #bbb;
   padding-bottom: 10px;
   margin: 40px 0 10px;
 }
-body .container h4 {
+
+h4 {
   margin: 0;
   text-transform: uppercase;
 }
-body .container .inc-exp-container {
+
+.inc-exp-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
   padding: 20px;
@@ -42,30 +48,37 @@ body .container .inc-exp-container {
   justify-content: space-between;
   margin: 20px 0;
 }
-body .container .inc-exp-container > div {
+
+.inc-exp-container > div {
   flex: 1;
   text-align: center;
 }
-body .container .inc-exp-container > div:first-of-type {
+
+.inc-exp-container > div:first-of-type {
   border-right: 1px solid #dedede;
 }
-body .container .money {
+
+.money {
   font-size: 20px;
   letter-spacing: 1px;
   margin: 5px 0;
 }
-body .container .money.plus {
+
+.money.plus {
   color: #2ecc71;
 }
-body .container .money.minus {
+
+.money.minus {
   color: #c0392b;
 }
-body .container label {
+
+label {
   display: inline-block;
   margin: 10px 0;
 }
-body .container input[type=text],
-body .container input[type=number] {
+
+input[type='text'],
+input[type='number'] {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
@@ -73,7 +86,8 @@ body .container input[type=number] {
   padding: 10px;
   width: 100%;
 }
-body .container .btn {
+
+.btn {
   cursor: pointer;
   background-color: #9c88ff;
   box-shadow: var(--box-shadow);
@@ -85,16 +99,19 @@ body .container .btn {
   padding: 10px;
   width: 100%;
 }
-body .container .btn:focus,
-body .container .delete-btn:focus {
+
+.btn:focus,
+.delete-btn:focus {
   outline: 0;
 }
-body .container .list {
+
+.list {
   list-style-type: none;
   padding: 0;
   margin-bottom: 40px;
 }
-body .container .list li {
+
+.list li {
   background-color: #fff;
   box-shadow: var(--box-shadow);
   color: #333;
@@ -104,13 +121,16 @@ body .container .list li {
   padding: 10px;
   margin: 10px 0;
 }
-body .container .list li.plus {
+
+.list li.plus {
   border-right: 5px solid #2ecc71;
 }
-body .container .list li.minus {
+
+.list li.minus {
   border-right: 5px solid #c0392b;
 }
-body .container .delete-btn {
+
+.delete-btn {
   cursor: pointer;
   background-color: #e74c3c;
   border: 0;
@@ -125,8 +145,7 @@ body .container .delete-btn {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-body .container .list li:hover .delete-btn {
+
+.list li:hover .delete-btn {
   opacity: 1;
 }
-
-/*# sourceMappingURL=App.css.map */
