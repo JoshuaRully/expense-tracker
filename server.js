@@ -5,9 +5,11 @@ const colors = require('colors');
 
 dotenv.config({ path: './config/config.env' });
 
+const transactions = require('./routes/transactions');
+
 const app = express();
 
-app.get('/', (req, res) => res.send('Hellow'));
+app.use('/api/v1/transactions', transactions);
 
 const PORT = process.env.PORT || 5000;
 
