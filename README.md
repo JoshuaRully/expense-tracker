@@ -5,7 +5,7 @@ This is a simple web app that uses a MongoDB cloud database to track user-inputt
 
 # Preview
 
-### Browse SpaceX launches and check out their respective details!
+### Add and delete your expenses and access them from any device using a cloud MongoDB!
 !["Preview"](https://github.com/JoshuaRully/expense-tracker/blob/main/gifs/preview.gif?raw=true)
 
 # Dependencies
@@ -19,6 +19,8 @@ This is a simple web app that uses a MongoDB cloud database to track user-inputt
 - Axios
 
 # Running the project
+
+You will need to create a MongoDB cloud cluster and add the respective URI to the config.env file to run this project locally.
 
 Fork this repository, then clone it to your local machine.
 
