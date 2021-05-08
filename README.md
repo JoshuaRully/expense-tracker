@@ -6,7 +6,7 @@ This is a simple web app that uses a MongoDB cloud database to track user-inputt
 # Preview
 
 ### Browse SpaceX launches and check out their respective details!
-!["Preview"]()
+!["Preview"](https://github.com/JoshuaRully/expense-tracker/blob/main/gifs/preview.gif?raw=true)
 
 # Dependencies
 
